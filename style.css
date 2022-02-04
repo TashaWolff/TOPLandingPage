@@ -1,3 +1,36 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* need to fix bolding */
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header,
+.section1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
