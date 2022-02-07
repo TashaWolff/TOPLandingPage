@@ -8,13 +8,16 @@ body {
 }
 
 a {
-    
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: ;
 }
 
-/* need to fix bolding */
+/* need to fixlding */
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: d;
+    border: solid red;
 }
 
 .text {
@@ -27,17 +30,32 @@ h1 {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
 }
 
 .header {
     justify-content: space-between;
-    padding: 2px 50px;
+    padding-top: 5px;
 }
 
 ul {
     display: flex;
-    gap: 30px;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.pic {
+    flex: 1 0 50%;
+    border: solid red;
 }
 
 .footer {
