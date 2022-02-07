@@ -10,13 +10,13 @@ body {
 a {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: ;
+    font-size: 12px;
 }
 
-/* need to fixlding */
+/* need to fix bolding */
 h1 {
     font-size: 48px;
-    font-weight: d;
+    font-weight: bolder;
 }
 
 .text {
@@ -62,7 +62,6 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    border: solid red;
     padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
@@ -72,7 +71,6 @@ ul {
     flex-basis: 90%;
     display: flex;
     align-items: center;
-    border: solid red;
     gap: 30px;
 }
 
@@ -80,13 +78,21 @@ ul {
     color: grey;
 }
 
-img {
-    border: solid green;
-}
-
 .box {
     display: flex;
     flex-direction: column;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 150px;
+    background-color: lightgrey;
+}
+
+.p2 {
+    align-self: flex-end;
+    font-weight: bold;
 }
 
 
