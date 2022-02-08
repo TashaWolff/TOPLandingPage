@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -9,14 +10,17 @@ body {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
-    font-size: 12px;
+    color: #f9faf8;
 }
 
-/* need to fix bolding */
 h1 {
     font-size: 48px;
     font-weight: bolder;
+}
+
+h2 {
+    font: 36px bolder;
+    color: #1f2937;
 }
 
 .text {
@@ -39,6 +43,11 @@ h1 {
     padding-top: 5px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 ul {
     display: flex;
     gap: 15px;
@@ -50,6 +59,12 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+}
+
+.button1 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 25px;
 }
 
 .pic {
@@ -87,7 +102,12 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 80px 150px;
-    background-color: lightgrey;
+    background-color: #e5e7eb;
+}
+
+.p1 {
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .p2 {
@@ -109,18 +129,18 @@ ul {
     padding-right: 90px;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: #3256f5;
+    background-color: #3882f6;
     border-radius: 7px;
 }
 
 .button2 {
-    background-color: #3256f5;
-    border-color: #f9faf8;
+    background-color: #3882f6;
     color: #f9faf8;
     border-radius: 25px;
     align-self: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-self: flex-end;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .call {
