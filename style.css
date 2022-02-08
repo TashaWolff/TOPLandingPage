@@ -95,6 +95,43 @@ ul {
     font-weight: bold;
 }
 
+.section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionbox {
+    display: flex;
+    gap: 55px;
+    margin: 65px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #3256f5;
+    border-radius: 7px;
+}
+
+.button2 {
+    background-color: #3256f5;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    border-radius: 25px;
+    align-self: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.call {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.message .text {
+    font-size: 12px;
+}
 
 .footer {
     background-color: #1f2937;
