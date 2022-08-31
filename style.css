@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-top,
+.footer {
+    background-color: #027375;
+    color: #c9dfd1;
+}
+
+.page-top {
+    padding: 28px 128px;
+}
+
+.header {
+    display: flex;
+    align-items:  center;
+}
+
+.content-top {
+    border: solid red;
+    display: flex;
+    padding: 36px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-top {
+    width: 450px;
+    height: 200px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #c9dfd1;
+}
