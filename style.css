@@ -6,7 +6,11 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* Styling for top of page */
 
 .page-top,
 .footer {
@@ -23,6 +27,15 @@ body {
     align-items:  center;
 }
 
+.logo {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.awesome-secondary {
+    font-size: 18px;
+}
+
 .content-top {
     display: flex;
     padding: 36px 0px;
@@ -30,8 +43,13 @@ body {
     justify-content: space-between;
 }
 
+.awesome-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
 .img-top{
-    border-radius: 25px;    
+    border-radius: 15px;    
     width: 450px;
     height: 200px;
 }
@@ -42,18 +60,73 @@ ul {
     gap: 15px;
     margin-left: auto;
     margin-top: 0;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
-    color: #c7d3a5;
+    color: #c5cfa8;
 }
+
+/* Styling for middle of page */
 
 .page-middle-top,
 .page-bottom {
     background-color:  #8c7651;
 }
 
+.page-middle-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #2e180b;
+}
+
+.box-container {
+    display: flex;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.box1 {
+    background: #41210f;
+}
+
+.box2 {
+    background: #41210f;
+}
+
+.box3 {
+    background: #41210f;
+}
+
+.box4 {
+    background: #41210f;
+}
+
 .page-middle-bottom {
     background-color: #c7d3a5;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.footer {
+    margin-top: auto;
 }
