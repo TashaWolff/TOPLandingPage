@@ -10,12 +10,12 @@ body {
 
 .page-top,
 .footer {
-    background-color: #027375;
-    color: #c9dfd1;
+    background-color: #2e180b;
+    color: #c7d3a5;
 }
 
 .page-top {
-    padding: 28px 128px;
+    padding: 28px 168px;
 }
 
 .header {
@@ -24,14 +24,14 @@ body {
 }
 
 .content-top {
-    border: solid red;
     display: flex;
     padding: 36px 0px;
     align-items: center;
     justify-content: space-between;
 }
 
-.img-top {
+.img-top{
+    border-radius: 25px;    
     width: 450px;
     height: 200px;
 }
@@ -46,5 +46,14 @@ ul {
 
 a {
     text-decoration: none;
-    color: #c9dfd1;
+    color: #c7d3a5;
+}
+
+.page-middle-top,
+.page-bottom {
+    background-color:  #8c7651;
+}
+
+.page-middle-bottom {
+    background-color: #c7d3a5;
 }
