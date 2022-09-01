@@ -12,6 +12,16 @@ body {
 
 /* Styling for top of page */
 
+button {
+    background-color: #f8a100;
+    padding: 8px 28px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
 .page-top,
 .footer {
     background-color: #2e180b;
@@ -19,11 +29,13 @@ body {
 }
 
 .page-top {
-    padding: 28px 168px;
+    padding: 28px 400px;
+    border: solid red;
 }
 
 .header {
     display: flex;
+    border: solid red;
     align-items:  center;
 }
 
@@ -39,8 +51,8 @@ body {
 .content-top {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 64px;
+    justify-content: space-between;
+    border: solid red;
     margin: 84px 0;
 }
 
@@ -51,8 +63,8 @@ body {
 
 .img-top{
     border-radius: 15px;    
-    width: 650px;
-    height: 200px;
+    width: 750px;
+    height: 400px;
 }
 
 ul {
@@ -60,7 +72,6 @@ ul {
     list-style: none;
     gap: 15px;
     margin-left: auto;
-    margin-top: 0;
     font-size: 18px;
 }
 
