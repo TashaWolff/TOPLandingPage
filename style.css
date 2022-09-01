@@ -28,19 +28,15 @@ button {
     color: #ffe2adb6;
 }
 
-.page-top {
+.page-top-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: solid red;
+    padding: 0 220px;
 }
 
 .header {
     display: flex;
     align-items:  center;
-    width: 1000px;
-    border: solid green;
 }
 
 .logo {
@@ -49,7 +45,6 @@ button {
 }
 
 .text-box {
-    border: solid pink;
     align-self: stretch;
     flex: 1;
 }
@@ -61,16 +56,18 @@ button {
 .content-top {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 1000px;
-    margin: 100px;
+    justify-content: center;
     gap: 52px;
-    border: solid blue;
+    margin: 86px 0;
 }
 
 .awesome-text {
     font-size: 48px;
     font-weight: bolder;
+}
+
+.img-box {
+    display: flex;
 }
 
 .img-top{
@@ -83,9 +80,10 @@ button {
 ul {
     display: flex;
     list-style: none;
+    padding: 0;
     gap: 15px;
-    margin-left: auto;
     font-size: 18px;
+    margin-left: auto;
 }
 
 a {
@@ -118,7 +116,6 @@ a {
 .box-container {
     display: flex;
     gap: 56px;
-    flex: 1;
 }
 
 .content-container {
