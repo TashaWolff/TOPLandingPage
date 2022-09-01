@@ -29,19 +29,22 @@ button {
 }
 
 .page-top {
-    padding: 28px 400px;
-    border: solid red;
+    padding: 28px 620px;
 }
 
 .header {
     display: flex;
-    border: solid red;
     align-items:  center;
 }
 
 .logo {
     font-weight: bolder;
     font-size: 24px;
+}
+
+.text-box {
+    border: solid pink;
+    align-self: stretch;
 }
 
 .awesome-secondary {
@@ -99,17 +102,20 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #2e180b;
+    flex: 1;
 }
 
 .box-container {
     display: flex;
     gap: 56px;
+    flex: 1;
 }
 
 .content-container {
     width: 200px;
     text-align: center;
     color: #2e180b;
+    flex: 1;
 }
 
 .box1,
@@ -141,10 +147,24 @@ a {
     background-color: #ffd68ab6;
 }
 
+.quote-box {
+    padding: 136px 442px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid green;
+}
+
 .quote {
+    width: 900px;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+}
+
+p.quote-credit {
+    text-align: end;
+    margin: 0;
 }
 
 .footer {
