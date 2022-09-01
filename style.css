@@ -29,12 +29,18 @@ button {
 }
 
 .page-top {
-    padding: 28px 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid red;
 }
 
 .header {
     display: flex;
     align-items:  center;
+    width: 1000px;
+    border: solid green;
 }
 
 .logo {
@@ -45,6 +51,7 @@ button {
 .text-box {
     border: solid pink;
     align-self: stretch;
+    flex: 1;
 }
 
 .awesome-secondary {
@@ -55,8 +62,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: solid red;
-    margin: 84px 0;
+    width: 1000px;
+    margin: 100px;
+    gap: 52px;
+    border: solid blue;
 }
 
 .awesome-text {
@@ -66,8 +75,9 @@ button {
 
 .img-top{
     border-radius: 15px;    
-    width: 750px;
-    height: 400px;
+    width: 650px;
+    height: 300px;
+    flex: 1;
 }
 
 ul {
@@ -95,7 +105,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 112px;
+    padding-bottom: 100px;
 }
 
 .random-text {
@@ -112,7 +122,7 @@ a {
 }
 
 .content-container {
-    width: 200px;
+    width: 180px;
     text-align: center;
     color: #2e180b;
     flex: 1;
@@ -123,8 +133,8 @@ a {
 .box3,
 .box4 {
     border-radius: 15px;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 .box1 {
@@ -152,7 +162,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid green;
 }
 
 .quote {
@@ -160,7 +169,7 @@ a {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-}
+ }
 
 p.quote-credit {
     text-align: end;
@@ -168,5 +177,9 @@ p.quote-credit {
 }
 
 .footer {
-    margin-top: auto;
+    font-size: 18px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
