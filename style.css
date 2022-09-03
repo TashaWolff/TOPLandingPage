@@ -1,7 +1,3 @@
-* {
-    border: 1px solid red;
-}
-
 html, body {
     margin: 0;
     padding: 0;
@@ -93,7 +89,7 @@ button {
     padding: 8px 28px;
     border-radius: 8px;
     font-size: 18px;
-    color: white;
+    color: #ffe5b5;
     font-weight: bold;
     border: none;
 }
@@ -183,9 +179,36 @@ p.quote {
     margin-top: -10px;
 }
 
+.page-bottom {
+    display: flex;
+    justify-content: center;
+    padding: 126px 0px;
+}
+
+.action-box {
+    width: 1280px;
+    border-radius: 12px;
+    background-color: #f8a100;
+    color: #ffe5b5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 0;
+}
+
+.action-title {
+    margin-bottom: -12px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.action-box button {
+    border: 2px solid #ffe5b5;
+}
+
 .footer {
     font-size: 18px;
-    height: 128px;
+    height: 118px;
     display: flex;
     align-items: center;
     justify-content: center;
