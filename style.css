@@ -38,9 +38,6 @@ body {
 }
 
 .text-box {
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
     align-self: stretch;
     flex: 1;
 }
@@ -160,25 +157,30 @@ button {
 
 .page-middle-bottom {
     background-color: #ffd68ab6;
+    padding: 136px 0px;
+
 }
 
 .quote-box {
-    padding: 136px 442px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .quote {
-    width: 900px;
+    width: 840px;
     font-size: 36px;
     font-weight: lighter;
-    font-style: italic;
+    color: #2e180bdc;
  }
 
-p.quote-credit {
+p.quote {
     text-align: end;
-    margin: 0;
+    font-size: 22px;
+    font-weight: bolder;
+    font-style: none;
+    color: #2e180b;
+    margin-top: -10px;
 }
 
 .footer {
