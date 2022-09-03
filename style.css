@@ -1,7 +1,11 @@
+* {
+    border: 1px solid red;
+}
+
 html, body {
     margin: 0;
     padding: 0;
-} 
+}
 
 body {
     display: flex;
@@ -10,33 +14,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Styling for top of page */
-
-button {
-    background-color: #f8a100;
-    padding: 8px 28px;
-    border-radius: 8px;
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-    border: none;
-}
-
 .page-top,
 .footer {
     background-color: #2e180b;
     color: #ffe2adb6;
 }
 
-.page-top-container {
+.page-top {
     display: flex;
     flex-direction: column;
-    padding: 0 220px;
 }
 
 .header {
     display: flex;
+    flex: 1;
     align-items:  center;
+    padding: 0 320px;
 }
 
 .logo {
@@ -45,12 +38,22 @@ button {
 }
 
 .text-box {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
     align-self: stretch;
     flex: 1;
 }
 
+.awesome-text {
+    font-size: 48px;
+    font-weight: bolder;
+    width: 324px;
+}
+
 .awesome-secondary {
     font-size: 18px;
+    width: 464px;
 }
 
 .content-top {
@@ -58,12 +61,8 @@ button {
     align-items: center;
     justify-content: center;
     gap: 52px;
-    margin: 86px 0;
-}
-
-.awesome-text {
-    font-size: 48px;
-    font-weight: bolder;
+    padding: 0 320px;
+    margin: 56px 0;
 }
 
 .img-box {
@@ -72,8 +71,8 @@ button {
 
 .img-top{
     border-radius: 15px;    
-    width: 650px;
-    height: 300px;
+    width: 600px;
+    height: 250px;
     flex: 1;
 }
 
@@ -84,6 +83,7 @@ ul {
     gap: 15px;
     font-size: 18px;
     margin-left: auto;
+    flex: none;
 }
 
 a {
@@ -91,7 +91,15 @@ a {
     color: #ffe2ad8e;
 }
 
-/* Styling for middle of page */
+button {
+    background-color: #f8a100;
+    padding: 8px 28px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
 
 .page-middle-top,
 .page-bottom {
