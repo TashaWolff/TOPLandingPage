@@ -1,6 +1,6 @@
 # TOPLandingPage
-This is a work in progress that will be a landing page to showcase the layout skills I have learned so far.
+This is a project from <a href="https://www.theodinproject.com/">The Odin Project course</a>.
 
 Made with HTML and CSS.
 
-Live link coming soon <3
+<a href="https://tashawolff.github.io/TOPLandingPage/">View the project!</a>
