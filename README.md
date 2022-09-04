@@ -1,5 +1,5 @@
 # TOPLandingPage
-This is a project from <a href="https://www.theodinproject.com/">The Odin Project course</a>.
+This is a project from <a href="https://www.theodinproject.com/">The Odin Project</a> course.
 
 Made with HTML and CSS.
 
